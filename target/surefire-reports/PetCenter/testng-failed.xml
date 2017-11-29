@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [PetCenter]">
+  <test name="Demo PetCenter(failed)">
+    <parameter name="mode" value="local"/>
+    <parameter name="applicationURL" value="http://qa-trainingw7:86/"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="pe.com.web.petcenter.LogInTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyClickingLoginLink" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- pe.com.web.petcenter.LogInTests -->
+    </classes>
+  </test> <!-- Demo PetCenter(failed) -->
+</suite> <!-- Failed suite [PetCenter] -->
