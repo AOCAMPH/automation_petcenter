@@ -15,6 +15,8 @@ public class DriverFactory {
 			genericDriverWeb = new DriverFirefox();
 		}else if (browserName.equalsIgnoreCase("Chrome")){
 			genericDriverWeb = new DriverChrome();
+		}else if (browserName.equalsIgnoreCase("IE")){
+			genericDriverWeb = new DriverIE();
 		}else {
 			genericDriverWeb = null;
 			throw new InvalidWebDriverException(driverExceptionMessage(browserName));
