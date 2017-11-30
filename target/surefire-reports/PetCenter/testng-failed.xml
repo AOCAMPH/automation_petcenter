@@ -4,7 +4,7 @@
   <test name="Demo PetCenter(failed)">
     <parameter name="mode" value="local"/>
     <parameter name="applicationURL" value="http://qa-trainingw7:86/"/>
-    <parameter name="browserName" value="IE"/>
+    <parameter name="browserName" value="Edge"/>
     <classes>
       <class name="pe.com.web.petcenter.LogInTests">
         <methods>

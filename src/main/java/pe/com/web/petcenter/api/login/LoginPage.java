@@ -21,7 +21,7 @@ public class LoginPage {
 	}
 
 	public void setLocators() {
-		if (platform.equals("firefox") || platform.equals("chrome") || platform.equals("IE")) {
+		if (platform.equals("firefox") || platform.equals("chrome") || platform.equals("IE") || platform.equals("Edge")) {
 			lnkIniciarSesion = By.id(LoginLocators.LOGIN_ID_INICIAR_SESION_LNK);
 			txtUsuario = By.id(LoginLocators.LOGIN_ID_USUARIO_TXT);
 			txtPassword = By.id(LoginLocators.LOGIN_ID_PASSWORD_TXT);
