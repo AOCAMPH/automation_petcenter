@@ -4,13 +4,13 @@
   <test name="Demo PetCenter(failed)">
     <parameter name="mode" value="local"/>
     <parameter name="applicationURL" value="http://qa-trainingw7:86/"/>
-    <parameter name="browserName" value="IE"/>
+    <parameter name="browserName" value="chrome"/>
     <classes>
       <class name="pe.com.web.petcenter.LogInTests">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="VerifyClickingLoginLink"/>
+          <include name="VerifyClickingLoginLink" invocation-numbers="0"/>
         </methods>
       </class> <!-- pe.com.web.petcenter.LogInTests -->
     </classes>

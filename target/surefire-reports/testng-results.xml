@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="PetCenter" duration-ms="28302" started-at="2017-11-29T15:57:34Z" finished-at="2017-11-29T15:58:02Z">
+  <suite name="PetCenter" duration-ms="21489" started-at="2017-11-29T15:35:42Z" finished-at="2017-11-29T15:36:03Z">
     <groups>
     </groups>
-    <test name="Demo PetCenter" duration-ms="28302" started-at="2017-11-29T15:57:34Z" finished-at="2017-11-29T15:58:02Z">
+    <test name="Demo PetCenter" duration-ms="21489" started-at="2017-11-29T15:35:42Z" finished-at="2017-11-29T15:36:03Z">
       <class name="pe.com.web.petcenter.LogInTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="setUp" is-config="true" duration-ms="13335" started-at="2017-11-29T10:57:34Z" finished-at="2017-11-29T10:57:48Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="setUp" is-config="true" duration-ms="9155" started-at="2017-11-29T10:35:42Z" finished-at="2017-11-29T10:35:51Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -28,18 +28,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyClickingLoginLink(java.lang.String)[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="VerifyClickingLoginLink" duration-ms="14302" started-at="2017-11-29T10:57:48Z" finished-at="2017-11-29T10:58:02Z">
+        <test-method status="PASS" signature="VerifyClickingLoginLink(java.lang.String)[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="VerifyClickingLoginLink" duration-ms="11766" started-at="2017-11-29T10:35:51Z" finished-at="2017-11-29T10:36:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[IE]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClickingLoginLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="tearDown" is-config="true" duration-ms="643" started-at="2017-11-29T10:58:02Z" finished-at="2017-11-29T10:58:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.web.petcenter.LogInTests@cf57e3]" name="tearDown" is-config="true" duration-ms="544" started-at="2017-11-29T10:36:02Z" finished-at="2017-11-29T10:36:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
