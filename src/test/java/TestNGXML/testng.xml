@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="PetCenter">
     <test name="Demo PetCenter">
-    <parameter name="browserName" value="Edge"/>
+    <parameter name="browserName" value="IE"/>
     <parameter name="mode" value="local"></parameter>
     <parameter name="applicationURL" value="http://qa-trainingw7:86/"/>
         <classes>
